@@ -1,3 +1,4 @@
+import org.junit.Assert;
 import org.junit.Test;
 
 public class AppleTest extends BaseTest {
@@ -8,6 +9,8 @@ public class AppleTest extends BaseTest {
     public void checkHref() {
         MainPage mainPage = new MainPage(BASE_URL);
         MainPage.search(SEARCH_STRING);
-        int a = 0;
+        SearchPage searchPage = new SearchPage();
+        String href = searchPage.getHrefFromFirstArrticle();
+        Assert.assertTrue(href.contains("iphone-12"));
     }
 }
