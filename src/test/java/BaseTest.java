@@ -6,8 +6,8 @@ import org.junit.Before;
 
 abstract class BaseTest {
     public void Setup() {
-        WebDriverManager.operadriver().setup();
-        Configuration.browser = "opera";
+        WebDriverManager.chromedriver().setup();
+        Configuration.browser = "chrome";
         //Configuration.driverManagerEnabled = true;
         Configuration.browserSize = "1920x1080";
         Configuration.headless = false;
