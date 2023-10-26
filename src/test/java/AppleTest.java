@@ -6,6 +6,7 @@ public class AppleTest extends BaseTest {
 
     @Test
     public void checkHref() {
-
+        MainPage mainPage = new MainPage();
+        mainPage.openWedSite(BASE_URL);
     }
 }
