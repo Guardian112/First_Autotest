@@ -10,7 +10,7 @@ public class AppleTest extends BaseTest {
         MainPage mainPage = new MainPage(BASE_URL);
         MainPage.search(SEARCH_STRING);
         SearchPage searchPage = new SearchPage();
-        String href = searchPage.getHrefFromFirstArrticle();
+        String href = searchPage.getHrefFromFirstArticle();
         Assert.assertTrue(href.contains("iphone-12"));
     }
 }

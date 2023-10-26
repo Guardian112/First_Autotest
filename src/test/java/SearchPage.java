@@ -8,7 +8,7 @@ public class SearchPage {
     /**
      * Возвращает href из первой строки
      */
-    public String getHrefFromFirstArrticle() {
+    public String getHrefFromFirstArticle() {
         return articleTitels.first().getAttribute("href");
     }
 }
