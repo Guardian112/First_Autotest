@@ -10,9 +10,10 @@ import static com.codeborne.selenide.Selenide.$x;
 public class MainPage {
     private static final SelenideElement textBoxInput = $x("//input[@type='text']");
 
-    public MainPage(String url){
+    public MainPage(String url) {
         Selenide.open(url);
     }
+
     public static void search(String searchString) {
         textBoxInput.setValue(searchString);
         textBoxInput.sendKeys(Keys.ENTER);
