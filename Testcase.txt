@@ -1,6 +1,5 @@
-1) Открыть резюме, которое доступно по ссылке: "https://kostroma.hh.ru/applicant/resumes/view?resume=67d81a7fff0c8c7fa00039ed1f5972426c6e69";
-2) Получить информацию о профиле, используя HashMap или Class, в которой должны быть следующие атрибуты:
-String sex, int age, String city, boolean confirmedPhoneNumber, boolean readyToRelocate;
-3) Убедится, что ожидаемый и актуальный результаты равны.
-
-Ожидаемый результат sex = "M", age = "19", city = "Кострома", confirmedPhoneNumber = true, readyToRelocate = false.
+1)Открыть сайт appleinsider.ru;
+2)Нажать на кнопку поиска сверху справа;
+3)Ввести текст “Чем отличается iPhone 13 от iPhone 12”;
+4)В найденных статьях получить href атрибут первой найденной статьи;
+5)Убедиться, что href ссылка содержит слово iPhone 12 (как в href ссылке).
