@@ -1,0 +1,6 @@
+1) Открыть резюме, которое доступно по ссылке: "https://kostroma.hh.ru/applicant/resumes/view?resume=67d81a7fff0c8c7fa00039ed1f5972426c6e69";
+2) Получить информацию о профиле, используя HashMap или Class, в которой должны быть следующие атрибуты:
+String sex, int age, String city, boolean confirmedPhoneNumber, boolean readyToRelocate;
+3) Убедится, что ожидаемый и актуальный результаты равны.
+
+Ожидаемый результат sex = "M", age = "19", city = "Кострома", confirmedPhoneNumber = true, readyToRelocate = false.
